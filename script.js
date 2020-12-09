@@ -3,9 +3,11 @@ let popUpQuestion = document.querySelector('question');
 let quizContainer = document.getElementsByClassName('hide');
 let startButton = document.getElementById('startBtn');
 let nextButton= document.getElementById('btnToGoNext');
-// var submitBtn = document.querySelector('submit');
 let h2Tag = document.querySelectorAll('a')
-// var buttonTag 
+let questionEl = document.getElementById('question-container');
+let answersButtonEl = document.getElementsByClassName('btn');
+
+let shuffleQuestions, CurrentQuestionIndex;
 
 
 // Add event listener to generate button
@@ -17,52 +19,37 @@ function questionsBeingAsked() {
     for (let i = 0; i < quizContainer.length; i++) {
             quizContainer[i].classList.remove('hide');
     }
-    
     h2Tag[1].classList.add('hide');
     startButton.classList.add('hide');
+    shuffleQuestions = questions.sort(() => Math.random() - .5)
     CurrentQuestionIndex = 0;
     nextQuestion();
 }
 
+function nextQuestion() {
+    showQuestion(shuffleQuestions[CurrentQuestionIndex])
+}
+    
+function showQuestion(question) {
+    questionEl.innerText = question.question;
+    question.answers.forEach(answer => {
+      
+    });
+}
+
+function selectAnswer() {
 
 
-// function questions = [
-//     {
-//     question:'what is 2+3?',
-//     answers [
-//         {text:'4', correct:true},
-//         {text: 22, correct:false}
-//     ]
-// }
-// ]
-
-// display quiz right away
+}
 
 
-
-
-// // for (let i = 0; i < 6; index++) {
-// //     h1Tags[0].innerText = 'Hi'
-// // //  }
-
-// // function showResults() {
-
-
-
-//  }
-
-
-
-// buildQuiz();
-
- 
-// // on submit, show results
-// submitButton.addEventListener('click', showResults);
-
-
-// submitBtn.onclick = function () {
-//     showResults(questions, quizContainer, resultsContainer);
-// }
-
+    let questions = [
+      {
+      question: 'What does HTML stand for?',
+      answers: [,
+        { text: 'Hypertext Markup Language', correct:true },
+        { text: 'Hi', correct:false },
+      ]
+      }]
 
 // quizContainer.innerHTML = output.join('');
