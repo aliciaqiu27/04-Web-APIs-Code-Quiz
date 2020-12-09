@@ -1,22 +1,21 @@
 # 04 Web APIs: Code Quiz
 
-##  Using Javascript to Make Your Page Interactive
+##  Using Javascript to Create a Code Quiz with a Timer
 
-    Javascript is a commonly used text-based programming languaged used to make your HTML page interactive. While HTML and CSS give you the structure and style, Javascript will help to enaage the User to do different things such as generating a password. The purpose of this project is to create a webpage using Javascript to help the User to generate a password that may consist of letters(lowercase or uppercase), numbers, and special characters.
+    Javascript is a commonly used text-based programming language used to make your HTML page interactive. While HTML and CSS give you the structure and style, Javascript will help to engage the User to do different things such as making a quiz. The purpose of this project is to create a webpage using Javascript to provide the User to take a quiz within the alloted time.
 
 ## Usage 
 
 1) Open the Index.html file with Chrome/Firefox web browsers:
-1) Click on the "Generate Password" red button. 
-2) A prompt will popup and ask how long you want your password to be. See [First question Demo](How-To-Use.PNG). It is important to remember that the password length has to be between 8-128 exclusively. If User puts anything not in between, an alert message will pop up on the screen. User will have to try again.
-3) Select Ok (Yes) or Cancel (No) for each questions being asked after User answers the first question properly.
-4) A password will be generated based on your choices in the box. See [Click Button Demo](How-To-Use-I.PNG).
+1) Click on the "Start Quiz" button to go to the first question question. See [Start Quiz Demo](How-To-Use-I.PNG).The timer will then start counting down from 4 minutes. 
+2) A multiple choice question will appear with four answer choices. Click one of the blue buttons containing your answer and then click on the "Next" green button. 
+3) A prompt will appear notifying the User if the question was answered correctly.
+4) After answering all the questions, the total score will appear on the screen.
 
 ## Credits
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join
-https://stackoverflow.com/questions/1497481/javascript-password-generator
-https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics
+https://www.sitepoint.com/simple-javascript-quiz/
+https://www.youtube.com/watch?v=riDzcEQbX6k
 
 ## License
 

@@ -12,9 +12,9 @@
 <body>
     <nav class="header">
     <h1>View Highscores</h1>
-    <a class="timer">
+    <a id="timer" class='hide'>
         <ul>
-            <li>Timer</li>
+            <li>Time</li>
         </ul>
     </a>
     </nav>
@@ -24,22 +24,22 @@
     <a class="introduction">
     <h2>Welcome to Code Quiz</h2>
     <h4>Do you know the basics of coding? Answer five simple questions to put you.</h4>
-    <h4>You have 10 minutes to finish the quiz.</h4>
+    <h4>You have 5 minutes to answer the questions.</h4>
     <a>
 </section>
 
     <section>
-        <header class="quizContainer hide">
-        <article class="question-container">
+        <header class="quizContainer">
+        <article id="question-container" class='hide'>
         <a><h2>blah</h2></a>
         </article>
-        <article class="choices">
+        <article class="hide">
             <ul>
-                <li><button class="btn">Answer A</button></li>
-                <li><button class="btn">Answer B</button></li>
-                <li><button class="btn">Answer C</button></li>
-                <li><button class="btn">Answer D</button></li>
-                <li><button class="btnToGoNext">Next</button></li>
+                <li><button id="choiceA">Answer A</button></li>
+                <li><button id="choiceB">Answer B</button></li>
+                <li><button id="choiceC">Answer C</button></li>
+                <li><button id="choiceD">Answer D</button></li>
+                <li><button id="btnToGoNext">Next</button></li>
             </ul>
         </article>
         </header>

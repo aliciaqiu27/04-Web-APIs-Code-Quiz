@@ -23,15 +23,15 @@ body {
     height: 5em;
 }
 
-.timer {
+#timer {
     float: right;
 }
 
-.timer ul, .container ul {
+#timer ul, .container ul {
     list-style-type: none;
 }
 
-.timer ul li {
+#timer ul li {
     display: inline-block;
     color: red;
     font-size: 20px;
@@ -47,7 +47,7 @@ body {
     list-style-type: none;
 }
 
-#startBtn, .btnToGoNext {
+#startBtn, #btnToGoNext {
     font-size: 24px;
     align-items: center;
     margin-top: 20px;  
@@ -55,7 +55,7 @@ body {
     color:black;
 }
 
-.btn {
+#choiceA,#choiceB, #choiceC, #choiceD {
     list-style-type: none;
     display: grid;
     border: black;
