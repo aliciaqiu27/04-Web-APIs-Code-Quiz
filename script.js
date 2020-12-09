@@ -1,6 +1,6 @@
 // Assignment Code
 let TimerEl = document.getElementById('timer');
-let popUpQuestion = document.querySelector('question-Container');
+let popUpQuestion = document.getElementById('questionContainer');
 let quizContainer = document.getElementsByClassName('hide');
 let startButton = document.getElementById('startBtn');
 let nextButton= document.getElementById('btnToGoNext');
