@@ -7,8 +7,8 @@
 ## Usage 
 
 1) Open the Index.html file with Chrome/Firefox web browsers:
-1) Click on the "Start Quiz" button to go to the first question question. See [Start Quiz Demo](How-To-Use-I.PNG).The timer will then start counting down from 4 minutes. 
-2) A multiple choice question will appear with four answer choices. Click one of the blue buttons containing your answer and then click on the "Next" green button. 
+1) Click on the "Start Quiz" button to go to the first question question. See [Start Quiz Demo](How-To-Use-I.PNG). It is important to remember that you have 60 seconds to answer the four questions. The timer will then start counting down once you start the quiz. See [Timer Demo](How-To-Use-II.PNG)
+2) The first multiple-choice question will appear with four answer choices. Click one of the blue buttons containing your answer and then click on the "Next" green button. [Quiz Questions Demo](How-To-Use-III.PNG)
 3) A prompt will appear notifying the User if the question was answered correctly.
 4) After answering all the questions, the total score will appear on the screen.
 

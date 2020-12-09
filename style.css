@@ -53,6 +53,7 @@ body {
     margin-top: 20px;  
     background-color: rgb(172, 192, 155);
     color:black;
+    width: 180px;
 }
 
 #choiceA,#choiceB, #choiceC, #choiceD {

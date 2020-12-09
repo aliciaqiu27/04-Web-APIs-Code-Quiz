@@ -10,32 +10,25 @@ let answersButtonEl = document.getElementsByClassName('btn');
 let shuffleQuestions, CurrentQuestionIndex;
 
 
-//Set timer counting down from 10
+//Set timer counting down from 60 seconds
 let count = 60;
 var interval = setInterval(function(){
   TimerEl.innerHTML=count;
   count--;
   if (count === 0){
     clearInterval(interval);
-    TimerEl.innerHTML='Done';
-    // or...
-    alert("You're out of time!");
+    TimerEl.innerHTML='Completed';
+    alert("Out of time!");
   }
 }, 1000);
 
-console.log(interval)
-
-// // on submit, show results
-// submitButton.addEventListener('click', showResults);
-
-
-
-// Add event listener to generate button
+// Add event listener to generate "Start Quiz" button
 startButton.addEventListener('click', questionsBeingAsked);
+// Add event listener to generate "next" button
 // nextButton.addEventListener('click', nextQuestion);
 
 
-
+// User clicks on "Start Quiz" button
 function questionsBeingAsked() {
     for (let i = 0; i < quizContainer.length; i++) {
             quizContainer[i].classList.remove('hide');
@@ -100,8 +93,9 @@ const userQuestions = [
 // function selectAnswer() {
 
 
-// }
 
+// // on submit, show results
+// submitButton.addEventListener('click', showResults);
 
 
     // on submit, show results
